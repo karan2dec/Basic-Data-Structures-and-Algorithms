@@ -93,6 +93,7 @@ int main()
 		cout << "\n     3. Display   ";
 		cout << "\n     4. Exit    \n";
 		cout << "\n Enter choice : ";
+		cout << "\n don't know what to do" ;
 		cin >> choice;
 		cout << "\n";
 
