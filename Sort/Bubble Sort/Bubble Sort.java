@@ -4,17 +4,17 @@ class Bubble_Sort
 {
 	public static void main(String args[])
 	{
-		Scanner input = new Scanner(System.in);
+		Scanner number = new Scanner(System.in);
 		
 		int N;
 		System.out.print("\n Array size : ");
-		N = input.nextInt();
+		N = number.nextInt();
 
 		int A[] = new int[N], temp;
 		System.out.print("\n Enter elements : ");
 
 		for(int i = 0; i < N; ++i)
-			A[i] = input.nextInt();
+			A[i] = number.nextInt();
 
 		// Bubble Sort
 		//-------------
